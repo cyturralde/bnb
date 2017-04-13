@@ -51,7 +51,7 @@
         <!-- Heading Row -->
         <div class="row">
             <div class="col-md-7">
-                <img class="img-responsive img-rounded" style="width:750px:" height:250px;" src="/bnb/images/house-1.jpg" alt="Hampstead NC Bed and Breakfast">
+                <img class="img-responsive img-rounded" src="/bnb/images/house-1.jpg" alt="Hampstead NC Bed and Breakfast">
             </div>
             <!-- /.col-md-8 -->
             <div class="col-md-5">
@@ -114,5 +114,14 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('container').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
   </body>
 </html>
